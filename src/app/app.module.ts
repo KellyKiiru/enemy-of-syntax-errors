@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyFirstCustomComponentComponent } from './my-first-custom-component/my-first-custom-component.component';
-import { InterpolationComponent} from './interpolation-practise/interpolation'
+import { InterpolationComponent} from './interpolation-practise/interpolation';
+import {InterpolationTrial} from './assignments/assignments'
 
 @NgModule({
   declarations: [
     AppComponent,
     MyFirstCustomComponentComponent,
-    InterpolationComponent
+    InterpolationComponent,
+    InterpolationTrial
   ],
   imports: [
     BrowserModule,
