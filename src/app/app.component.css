@@ -1,0 +1,16 @@
+*{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+div{
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+    display: flex;
+    justify-content: baseline;
+}
+p{
+    align-items: center;
+}
