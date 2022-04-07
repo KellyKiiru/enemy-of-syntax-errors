@@ -7,6 +7,7 @@ import { MyFirstCustomComponentComponent } from './my-first-custom-component/my-
 import { InterpolationComponent} from './interpolation-practise/interpolation';
 import {InterpolationTrial} from './assignments/assignments';
 import { PropertyBindingComponent } from './assignments/property-binding/property-binding.component';
+import { EventBindingComponent } from './assignments/event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PropertyBindingComponent } from './assignments/property-binding/propert
     MyFirstCustomComponentComponent,
     InterpolationComponent,
     InterpolationTrial,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
