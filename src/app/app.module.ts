@@ -5,14 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyFirstCustomComponentComponent } from './my-first-custom-component/my-first-custom-component.component';
 import { InterpolationComponent} from './interpolation-practise/interpolation';
-import {InterpolationTrial} from './assignments/assignments'
+import {InterpolationTrial} from './assignments/assignments';
+import { PropertyBindingComponent } from './assignments/property-binding/property-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyFirstCustomComponentComponent,
     InterpolationComponent,
-    InterpolationTrial
+    InterpolationTrial,
+    PropertyBindingComponent
   ],
   imports: [
     BrowserModule,
