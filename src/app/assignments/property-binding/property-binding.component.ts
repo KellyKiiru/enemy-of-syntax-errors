@@ -6,8 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./property-binding.component.css']
 })
 export class PropertyBindingComponent implements OnInit {
+  
+  makeDisappear:any = "display: none;";
 
-  constructor() { }
+  paragraph:any = $("p")
+
+  makeAppear = this.paragraph.attr('style', 'display:{{!makeDisappear}}');
+
+  constructor() { 
+
+  
+
+  }
 
   ngOnInit(): void {
   }

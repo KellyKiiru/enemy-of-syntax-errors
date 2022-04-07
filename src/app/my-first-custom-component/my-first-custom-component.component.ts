@@ -15,9 +15,15 @@ export class MyFirstCustomComponentComponent implements OnInit {
     $(document).ready(function () {
       $('#qwerty').click(function () {
         $('#qwerty').hide();
-
+        
         var originalText: any = $('#p').html();
-        $('#p').text('click me to make the blue button appear');
+        $('#p').text('Click me to make a blue button appear');
+
+        var changeAttribute: any = $('#qwerty').attr(
+          'class',
+          'btn btn-primary'
+        );
+
         $('#p').click(function () {
           $('#qwerty').show();
           $('#p').html(originalText);
